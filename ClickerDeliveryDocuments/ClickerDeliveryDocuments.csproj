@@ -4,15 +4,15 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.0</TargetFramework>
     <UseWPF>true</UseWPF>
-    <ApplicationIcon>prettl-logo.ico</ApplicationIcon>
+    <ApplicationIcon>microsoft-excel.ico</ApplicationIcon>
     <StartupObject>ClickerDeliveryDocuments.App</StartupObject>
     <Authors>https://www.linkedin.com/in/andrii-zaharovskyi/</Authors>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Platforms>AnyCPU;x64;x86</Platforms>
+    <Version>2.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="prettl-logo.ico" />
     <None Remove="Resource\Images\hintergrund.png" />
   </ItemGroup>
 
@@ -31,14 +31,14 @@
   <ItemGroup>
     <PackageReference Include="Microsoft-WindowsAPICodePack-Core" Version="1.1.3.3" />
     <PackageReference Include="Microsoft-WindowsAPICodePack-Shell" Version="1.1.3.3" />
-    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.9.7">
+    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.9.8">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="System.Windows.Interactivity.WPF" Version="2.0.20525" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="prettl-logo.ico" />
     <Resource Include="Resource\Images\hintergrund.png" />
   </ItemGroup>
 
