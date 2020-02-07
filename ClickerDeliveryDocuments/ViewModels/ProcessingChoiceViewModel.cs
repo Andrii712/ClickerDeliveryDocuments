@@ -215,7 +215,8 @@ namespace ClickerDeliveryDocuments.ViewModels
             }
             else
             {
-                DataUtil.ShowErrorMessage(String.Format(DataUtil.defaultCultureProvider, "Does not have processed files."));
+                DataUtil.ShowErrorMessage(String
+                    .Format(DataUtil.defaultCultureProvider, "Does not have processed files."));
             }
         }
 
